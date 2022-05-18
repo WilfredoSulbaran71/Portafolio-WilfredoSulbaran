@@ -24,11 +24,12 @@
 body{
     font-family: "ubuntu", "sans-serif";
     font-size: 18px;
+    
 
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -39,6 +40,7 @@ body{
 .hero{
 background-color: var(--primary);
 position: relative;
+width: 100%;
 }
 
 .hero img{
@@ -183,6 +185,7 @@ span{
 
 .briefcase{
     background-color: var(--primary);
+    width: 100%;
 }
 
 
@@ -195,9 +198,9 @@ span{
 .briefcase-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
-    gap: 15px;
+    gap: 10px;
     
 }
 
@@ -208,13 +211,14 @@ span{
 }
 
 .briefcase-grid img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /*seccion de skills*/
 
 section.skills{
     background-color: var(--primary);
+    width: 100%;
 }
 
 .skill{
@@ -246,7 +250,7 @@ section.skills{
 
 .tools{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(80px, auto));
+    grid-template-columns: repeat(auto-fit,minmax(70px, auto));
     justify-content: center;
     gap:25px;
 }
@@ -276,6 +280,7 @@ section.skills{
 
 .about{
     background-color: var(--Dark);
+    width: 100%;
 }
 .about h2{
 color: var(--PrimaryText);
